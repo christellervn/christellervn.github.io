@@ -1,0 +1,225 @@
+
+    
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, 0);
+      border: solid rgba(0, 0, 0, 0);
+      border-width: 0px 0;
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill : currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .bg-light {
+        background-color: #fff!important;
+        
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #CF786F;
+    }
+
+    .nav-link {
+        color: #000000;
+    }
+   
+    .navigationbar {
+        position : fixed;
+    }
+    #icon-grid .bi {
+        fill : #CF786F;
+    }
+    h3 {
+        color : #CF786F;
+    }
+    h2 {
+        color : #EAAA65;
+    }
+    h4 {
+      color : #CF786F;
+      font-size: 20px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+
+   .milieu {
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+   }
+
+main {
+    overflow-y:hidden;
+    height: fit-content;
+    max-height: none;
+}
+.presentation {
+    background-image: url("background.png");
+    width: auto;
+}
+
+
+.icons{
+    display:flex;
+    column-gap:25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    width:30px;
+    height:30px;
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:22px;
+    color:#000000;
+    border-radius:50%;
+    outline:2px solid #000;
+    transition-property : outline-offset , outline-color ,
+    background-color;
+    transition-duration: .25s;
+}
+.icon:hover{
+    outline-offset: 4px;
+}
+.icon:hover i{
+    animation: shake .25px;
+}
+.icon--instagram:hover{
+    background-image: radial-gradient(circle at 30% 107% ,
+    #fdf497 0%, #fdf497 5% , #fd5949 45%,
+    #d6249f 60%, #285AEB 90%);
+    outline-color:#a02d76;
+}
+
+.icon--linkedin:hover{
+    background-color:#0077b5;
+    outline-color: #0077b5;
+}
+
+@keyframes shake{
+    10%{transform:rotate(-15deg);}
+    20%{transform:rotate(-15deg);}
+    30%{transform:rotate(-15deg);}
+    40%{transform:rotate(-15deg);}
+}
+
+.prez {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.prez2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #CF786F;
+}
+
+.btn-outline-secondary {
+    --bs-btn-border-color: #eaab66;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d0796f;
+    --bs-btn-hover-border-color: #ffffff;
+    margin-top: 50px;
+}
+
+.pied {
+position: relative;
+}
+
+
+  html, body {
+    overflow: visible;
+}
+
+
+
+#icon-grid .fa {
+font-size: 3em;
+margin: 12px;
+color: #BECCCF;
+}
+
+.card {
+  width: 340px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  border-color: #EAAA65;
+}
+
+.prez2 a {
+  color: inherit;
+}
+
+.card .fa {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 0px;
+  color: #000;
+}
+.card .fa-solid {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 0px;
+  color: #000;
+}
+
+.techno {
+  display: flex;
+  margin-left: 6px;
+}
+
+.card span {
+font-size: 13px;
+}
+
+.card button {
+  margin-top: 0px;
+  margin-left: 90px;
+  font-size: 12px;
+}
