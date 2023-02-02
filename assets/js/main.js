@@ -116,6 +116,15 @@
     });
   });
 
+// Fonction executée lors de l'utilisation du clic droit.
+$(document).bind("contextmenu",function()
+{
+// Si vous voulez ajouter un message d'alerte
+alert('Clic droit non autorisé ! Une question ? Contactez-moi : christelle.ravon@gmail.com');
+// On indique au navigateur de ne pas réagir en cas de clic droit.
+return false;
+});
+
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
     autoplay: true,
